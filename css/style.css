@@ -1,0 +1,493 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #432918;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #432918;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: #432918;
+}
+
+
+/*__________NAV__________*/
+;
+
+
+nav.r-nav {
+    background: transparent;
+    padding: 12px 0;
+    transition: .5s all;
+
+}
+
+nav .navbar-brand {
+    font-size: 1.875rem;
+    color: #fff;
+    margin-left: 12px !important;
+}
+
+nav .navbar-nav li a {
+    color: #fff !important;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+}
+
+nav .navbar-nav li {
+    margin-left: 15px;
+}
+
+nav.r-nav.stickyadd {
+    background: #fff !important;
+    padding: 5px 0;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+    transition: .5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+    color: #000;
+    font-size: 2rem;
+    transition: .5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+    color: #000 !important;
+
+}
+
+.navbar .hamburger {
+    color: #fff;
+}
+
+nav.stickyadd .hamburger {
+    color: #000;
+}
+
+
+/*HEADER*/
+
+header {
+    background: url(../images/cover.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.header-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.content-box {
+    max-width: 700px;
+    color: #fff;
+    padding: 75px 50px;
+}
+
+.content-box h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: #ffff;
+}
+
+.content-box a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+div .head {
+    text-align: left !important;
+}
+
+/*ABOUT*/
+
+.abhead {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.abhead h2 {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.abhead h4 {
+    font-weight: 300;
+}
+
+.about {
+    align-items: center;
+}
+
+.img-thumbnail {
+    max-width: 70% !important;
+    border: 0px !important;
+}
+
+.vrouw {
+    text-align: center;
+}
+
+.abouttekst {
+    text-align: center;
+    justify-content: center !important;
+}
+
+
+/*Catalog*/
+
+img {
+    width: 100%;
+
+}
+
+.catalogus {
+    margin: 70px 0px 25px !important;
+    font-family: 'Poppins', sans-serif;
+    text-align: center !important;
+    font-weight: 300;
+}
+
+.product-grid9,
+.product-grid9 .product-image9 {
+    position: relative
+}
+
+.product-grid9 {
+    font-family: Poppins, sans-serif;
+    z-index: 1
+}
+
+.product-grid9 .product-image9 a {
+    display: block
+}
+
+.product-grid9 .product-image9 img {
+    width: 100%;
+    height: auto
+}
+
+.product-grid9 .pic-1 {
+    opacity: 1;
+    transition: all .5s ease-out 0s
+}
+
+.product-grid9:hover .pic-1 {
+    opacity: 0
+}
+
+.product-grid9 .pic-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .5s ease-out 0s
+}
+
+.product-grid9:hover .pic-2 {
+    opacity: 1
+}
+
+.product-grid9 .product-full-view {
+    color: #505050;
+    background-color: #fff;
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    padding: 18px;
+    border-radius: 100px 0 0;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: all .3s ease 0s
+}
+
+.product-grid9 .product-full-view:hover {
+    color: #c0392b
+}
+
+.product-grid9:hover .product-full-view {
+    opacity: 1
+}
+
+.product-grid9 .product-content {
+    padding: 20px 12px;
+    overflow: hidden;
+    position: relative
+}
+
+.product-content .rating {
+    padding: 0;
+    margin: 0 0 7px;
+    list-style: none
+}
+
+.product-grid9 .rating li {
+    font-size: 12px;
+    color: #ffd200;
+    transition: all .3s ease 0s
+}
+
+.product-grid9 .rating li.disable {
+    color: rgba(0, 0, 0, .2)
+}
+
+.product-grid9 .title {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 0 3px;
+    transition: all .3s ease 0s
+}
+
+.product-grid9 .title a {
+    color: rgba(0, 0, 0, .5)
+}
+
+.product-grid9 .title a:hover {
+    color: #c0392b
+}
+
+.product-grid9 .price {
+    color: #000;
+    font-size: 17px;
+    margin: 0;
+    display: block;
+    transition: all .5s ease 0s
+}
+
+.product-grid9:hover .price {
+    opacity: 0
+}
+
+.product-grid9 .add-to-cart {
+    display: block;
+    color: #c0392b;
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0;
+    position: absolute;
+    left: 10px;
+    bottom: -20px;
+    transition: all .5s ease 0s
+}
+
+.product-grid9:hover .add-to-cart {
+    opacity: 1;
+    bottom: 0
+}
+
+@media only screen and (max-width:990px) {
+    .product-grid9 {
+        margin-bottom: 30px
+    }
+}
+
+
+/*VIDEO*/
+
+.video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.2%;
+}
+
+.videogip {
+  position: relative;
+  align-items: flex-start;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 28.2%;
+}
+
+.uitleg {
+    text-align: center;
+    max-width: 500px;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tekst {
+	margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.videointro {
+    background-color: #FFEFF0;
+    text-align: center;    
+    max-width: 100% !important;
+    margin: 25px 0px !important;
+}
+
+.videointro h1{
+	font-weight: 600 !important;
+	line-height: 4 !important;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.song{
+	text-align: center;
+	margin: 50px 0px 25px 0px;
+}
+
+.song h2 {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.song h4 {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.gipvid {
+    background-color: #FFEFF0;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 25px 50px;
+}
+
+
+    /*FORMULIER*/
+
+form {
+  font-family: poppins, sans-serif;
+  margin-top: 50px;
+}
+
+.form {
+    display: flex;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #432918;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: black;
+}
+
+.signin {
+  text-align: center;
+}
+
+.talk {
+    align-items: right;
+    margin-top: 50px;
+}
+
+.last {
+    line-height: 25px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #FFEFF0;
+    margin-bottom: 0px !important;
+    margin-top: 50px;
+    line-height: 3;
+}
+
+/*MEDIAQUERRIEEES*/
+
+@media (max-width: 820px){
+        #gipvideo{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .talk{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .videogip{
+            padding-bottom: 28%;
+        }
+
+        .about{
+            display: flex;
+        }
+    }
+
+@media (max-width: 414px){
+        .form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .abt{
+            display: flex;
+            flex-direction: column;
+        }
+}
